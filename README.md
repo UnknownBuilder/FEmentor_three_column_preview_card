@@ -37,7 +37,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution](https://your-solution-url.com)
+- Solution URL: [Solution](https://github.com/UnknownBuilder/FEmentor_three_column_preview_card)
 - Live Site URL: [Live Site](https://unknownbuilder.github.io/FEmentor_three_column_preview_card)
 
 ## My process
