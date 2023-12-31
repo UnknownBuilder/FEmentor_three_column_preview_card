@@ -42,7 +42,7 @@ main {
 
     display: flex;
     max-width: 60rem;
-    border-radius: 3.5rem;
+    /* border-radius: 3.5rem; */
     margin: 1.5rem;
 }
 
@@ -144,6 +144,8 @@ footer p {
 .sedan-wrapper {
 
     background-color: var(--clr-primary-brightOrange);
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
 }
 
 .suv-wrapper {
@@ -154,6 +156,9 @@ footer p {
 .luxury-wrapper {
 
     background-color: var(--clr-primary-veryDarkCyan);
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    
 }
 
 @media (max-width:700px) {
@@ -167,6 +172,21 @@ footer p {
     .btn {
 
         margin-top: 1.0rem;
+    }
+
+    .sedan-wrapper {
+
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+        border-bottom-left-radius: 0rem;
+    }
+
+    .luxury-wrapper {
+
+        border-top-right-radius: 0rem;
+        border-bottom-right-radius: 1rem;
+        border-bottom-left-radius: 1rem;
+        
     }
 
 }
