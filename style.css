@@ -17,4 +17,140 @@
 
 /* HTML ELEMENTS */
 
+a {
+
+    text-decoration: none;
+}
+
+body {
+
+    display: grid;
+    grid-template-rows: auto 5vh;
+    height:100vh;
+
+    font-family: "Lexa Deca", sans-serif;
+    color:white;
+
+}
+
+main {
+
+    display: flex;
+    max-width: 60rem;
+    border-radius: 3.5rem;
+}
+
+p {
+
+    color: var(--clr-veryLightGray);
+    line-height: 1.5rem;
+}
+
+img {
+
+    width:3.5rem;
+}
+
+footer {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+
+footer p {
+
+    color:black;
+}
+
 /* HTML CLASSES  */
+
+.btn {
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:8rem;
+    height: 2.5rem;
+    border-radius: 2rem;
+    margin-top:5rem;
+    background-color:white;
+}
+
+.btn-color-sedan {
+
+    color: var(--clr-primary-brightOrange);
+    
+}
+
+.btn-color-sedan:hover {
+
+    background-color: var(--clr-primary-brightOrange);
+    color:white;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.btn-color-suv {
+
+    color: var(--clr-primary-darkCyan);
+}
+
+.btn-color-suv:hover {
+
+    background-color: var(--clr-primary-darkCyan);
+    color:white;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.btn-color-luxury {
+
+    color: var(--clr-primary-veryDarkCyan);
+}
+
+.btn-color-luxury:hover {
+
+    background-color: var(--clr-primary-veryDarkCyan);
+    color:white;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.main-container {
+
+    display: grid;
+    place-items: center;
+}
+
+.section {
+
+    display:flex;
+    flex-direction: column;
+    gap:2.0rem;
+    padding: 2.5rem;
+}
+
+.header {
+
+    font-family: "Big Shoulders Display", sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.sedan-wrapper {
+
+    background-color: var(--clr-primary-brightOrange);
+}
+
+.suv-wrapper {
+
+    background-color: var(--clr-primary-darkCyan);
+}
+
+.luxury-wrapper {
+
+    background-color: var(--clr-primary-veryDarkCyan);
+}
